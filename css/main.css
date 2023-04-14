@@ -62,5 +62,53 @@ body {
 .main-brdr {
     border: 1px solid #ebebeb;
 }
-.main-brdr span:nth-child(2) {
+
+.flex-cont {
+    display: flex;
+    align-items: center;
+}
+
+.brdr-left{
+    border: 1px solid #ebebeb;
+    border-right: none;
+    margin-left: 16%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 7px;
+}
+.trngl-left {
+    display: inline-block;
+    margin-left: -12px;
+    border-top: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    width: 21.5px;
+    height: 21.5px;
+    transform: rotate(45deg)
+}
+
+.numb-bold {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.flex-cont img {
+    margin-right: 25px;
+}
+
+.brdr-right {
+    border: 1px solid #ebebeb;
+    border-left: none;
+    margin-left: -12px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-right: 7px;
+}
+.trngl-right {
+    display: inline-block;
+    border-left: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    width: 21.5px;
+    height: 21.5px;
+    transform: rotate(45deg)
 }
