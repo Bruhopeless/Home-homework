@@ -74,19 +74,20 @@ body {
     margin-top: 3%;
 }
 .title-text2 {
+    font-size: 18px;
     font-weight: bold;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 3%;
 }
 
 .gray-smll_text {
     color: #818181;
     font-size: 12px;
-    margin-left: 60%;
+    margin-left: 58%;
     margin-top: 3%;
 }
 .gray-smll_text2 {
-    margin-left: 47%;
+    margin-left: 42%;
     color: #818181;
     font-size: 12px;
     margin-top: 3%;
@@ -177,4 +178,36 @@ body {
     padding-top: 5px;
     padding-right: 2px;
     padding-left: 9px;
+}
+
+.gray-btn {
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    width: 96%;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 3%;
+}
+.gray-btn:hover {
+    cursor: pointer;
+    background-color: #a8b4bf;
+}
+
+.white-btn {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 5px;
+    width: 96%;
+    height: 35px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    margin-top: 3%;
+}
+.white-btn:hover {
+    cursor: pointer;
+    background-color: #d0deed;
 }
