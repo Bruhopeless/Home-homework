@@ -50,7 +50,7 @@ body {
     font-size: 30px;
     text-align: center;
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .line {
@@ -61,6 +61,55 @@ body {
 
 .main-brdr {
     border: 1px solid #ebebeb;
+}
+
+.col-4 img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.title-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.title-text2 {
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.gray-smll_text {
+    color: #818181;
+    font-size: 12px;
+    margin-left: 60%;
+    margin-top: 3%;
+}
+.gray-smll_text2 {
+    margin-left: 47%;
+    color: #818181;
+    font-size: 12px;
+    margin-top: 3%;
+}
+.gray-smll_text3 {
+    margin-left: 28%;
+    color: #818181;
+    font-size: 12px;
+    margin-top: 3%;
+}
+
+.main-text {
+    color: #515151;
+    font-size: 15px;
+    margin-top: 2%;
+    max-width: 85%;
+}
+.main-text2 {
+    color: #515151;
+    font-size: 15px;
+    margin-top: 2%;
+    max-width: 85%;
+    margin-left: 3%;
 }
 
 .flex-cont {
@@ -94,12 +143,14 @@ body {
 
 .flex-cont img {
     margin-right: 25px;
+    width: 35px;
 }
 
 .brdr-right {
     border: 1px solid #ebebeb;
     border-left: none;
     margin-left: -12px;
+    margin-bottom: 2%;
     padding-bottom: 2px;
     padding-top: 2px;
     padding-right: 7px;
@@ -111,4 +162,19 @@ body {
     width: 21.5px;
     height: 21.5px;
     transform: rotate(45deg)
+}
+
+.txt-smll_rght {
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 2px;
+}
+.txt-smll_lft {
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 2px;
+    padding-left: 9px;
 }
